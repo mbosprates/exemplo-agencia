@@ -6,12 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Marketing</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header class="container-fluid">
-        <h1>Navigaion Menu</h1>
+        <nav id="nav" class="flex font-poppins">
+            <div class="nav-brand text-lg font-bold">
+                <a href="#" class="text-dark">Digital</a>
+            </div>
+
+            <div class="toggle-btn">
+                <button class="btn">
+                    <i class="bi bi-filter-right"></i>
+                </button>
+            </div>
+
+            <div class="collapse flex-grow">
+                <ul class="flex">
+                    <li><a href="#" class="link">Home</a></li>
+                    <li><a href="#" class="link">About</a></li>
+                    <li><a href="#" class="link">Services</a></li>
+                    <li><a href="#" class="link">Work</a></li>
+                    <li><a href="#" class="link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="flex-initial">
+                <ul class="flex">
+                    <button class="btn btn-primary btn-shadow bg-gradient text-white text-uppercase">Start a project</button>
+                </ul>
+            </div>
+        </nav>
     </header>
+    <main id="site-main">
+        <section class="banner-area font-poppins">
+            <div class="container mx-auto banner-title">
+                <div class="title">
+                    <span class="d-inline btn btn-primary bg-gradient-peach text-red">
+                        Digital experience
+                    </span>
+                    <div class="py-2 branding text-dark text-lg sm-text-xl font-bold">
+                        <span class="d-block">Branding Dogital</span>
+                        <span class="d-block">Marketing Digital</span>
+                        <span class="d-block">Business solutions</span>
+                    </div>  
+                    <div class="py-5">
+                        <p class="text-gray">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                        <p class="text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>             
+                    <div class="py-5">
+                        <a href="#" class="btn btn-primary bg-gradient text-white btn-shadow">
+                            Work Together
+                        </a>
+                    </div>     
+                </div>
+            </div>
+        </section>
+        <section class="agency-area">
+            <div class="container mx-auto text-center font-poppins">
+                <span class="text-red">Join our Agency</span>
+                <div class="area-title">
+                    <h1 class="text-lg text-dark">
+                        Lorem ipsum dolor sit amet consectetur <br>
+                        lorem ipsum dolor sit.
+                    </h1>
+                </div>
+                <div class="grid cols-1 lg-cols-3 py-10">
+                    <div class="grid-item px-5">
+                        <div class="text-center text-2xl text-red">
+                            <i class="bi bi-bricks"></i>
+                        </div>
+                        <div class="tex-center">
+                            <h4 class="text-md">Grow Your Business</h4>
+                            <p class="text-gray">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, commodi? Quas similique quod sit odit?</p>
+                        </div>
+                    </div>
+                    <div class="grid-item px-5">
+                        <div class="text-center text-2xl text-red">
+                            <i class="bi bi-megaphone"></i>
+                        </div>
+                        <div class="tex-center">
+                            <h4 class="text-md">Digital Marketing</h4>
+                            <p class="text-gray">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, commodi? Quas similique quod sit odit?</p>
+                        </div>
+                    </div>
+                    <div class="grid-item px-5">
+                        <div class="text-center text-2xl text-red">
+                            <i class="bi bi-mouse"></i>
+                        </div>
+                        <div class="tex-center">
+                            <h4 class="text-md">Search Engine Optimization</h4>
+                            <p class="text-gray">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, commodi? Quas similique quod sit odit?</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>            
+        </section>
+    </main>
+
 
     <script src="./main.js"></script>
 </body>
