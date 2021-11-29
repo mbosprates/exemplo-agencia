@@ -410,7 +410,7 @@ ul{
     row-gap: 2rem;
 }
 
-/* ############## Responsive ############## */
+/* ############## Work ############## */
 
 #site-main .recent-work-area .images-flex .flex-item{
     width: 360px;
@@ -422,6 +422,28 @@ ul{
 }
 
 
+/* ############## Articles ############## */
+
+#site-main .article-area .grid{
+    column-gap: 5em;
+}
+
+#site-main .article-area article{
+    border-radius: 10px;
+}
+
+/* ############## Ready ############## */
+
+#site-main .ready-area .flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
 /* ############## Responsive ############## */
 
 @media(min-width:640px){
@@ -431,6 +453,11 @@ ul{
 
     .sm-text-xl{
         font-size: 3rem;
+    }
+
+    .sm-px-10{
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
     }
 }
 
