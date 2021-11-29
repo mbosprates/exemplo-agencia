@@ -310,6 +310,12 @@ ul{
     max-height: 50vh !important;
 }
 
+body{
+    width: 100%;
+    background: url(./assets/backgroundpng.png);
+    background-size: cover;
+}
+
 /* ############## Banner area ############## */
 
 #site-main .banner-area{
@@ -528,6 +534,8 @@ ul{
 
     #nav{
         flex-direction: row !important;
+        padding-left: 6rem;
+        padding-right: 5rem;
     }
 
     .collapse{
