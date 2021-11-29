@@ -272,6 +272,7 @@ ul{
     padding: 1rem 1.5rem;
     background: var(--text-light);
     flex-direction: column;
+    z-index: 999;
 }
 
 #nav .collapse{
@@ -314,10 +315,9 @@ ul{
 #site-main .banner-area{
     width: 100%;
     position: relative;
-    background: var(--bg-cover);
+    background: var(--bg-cover);  
     background-repeat: no-repeat;
-    background-position-x: right;
-    z-index: -99;
+    background-position-x: right;    
 }
 
 #site-main .banner-area .banner-title{
@@ -400,6 +400,25 @@ ul{
     background-color: white;
     padding: 2rem 2.5rem;
     text-align: center;
+}
+
+
+/* ############## Cards ############## */
+
+#site-main .card-area .grid{
+    column-gap: 4rem;
+    row-gap: 2rem;
+}
+
+/* ############## Responsive ############## */
+
+#site-main .recent-work-area .images-flex .flex-item{
+    width: 360px;
+    margin-bottom: 50px;
+}
+
+#site-main .recent-work-area .images-flex .flex-item img{
+    border-radius: 10px;
 }
 
 
